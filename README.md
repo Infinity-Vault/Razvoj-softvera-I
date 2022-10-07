@@ -9,7 +9,7 @@ Kolekcija materijala (predavanja i vjezbi) za predmet Razvoj softvera I
 
 <hr>
 
-Predavanje 1- 7.10.2022.
+Predavanje 1- 7.10.2022 (Upoznavanje s predmetom, i upute za dalji rad prilikom izrade seminarskog)
 
 
 
