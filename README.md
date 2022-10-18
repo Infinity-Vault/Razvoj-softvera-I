@@ -7,7 +7,7 @@ Kolekcija materijala (predavanja i vjezbi) za predmet Razvoj softvera I
 
 
 
-1. Potrebno je da instalirate aktuelnu LTS verziju Node.js ukoliko vec nemate instalirano
+1. Potrebno je da instalirate aktuelnu LTS verziju Node.js ukoliko je vec nemate instaliranu:
 
    1. Otvorite bio koji cli (cmd, PowerShell) kao **administrator** i ukucajte sljedecu komandu: 
 
