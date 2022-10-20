@@ -61,6 +61,8 @@ Predavanje 1- 7.10.2022 (Upoznavanje s predmetom, i upute za dalji rad prilikom 
 
 [Vjezbe 2- Adil Joldic 12.10.2022.](https://github.com/Infinity-Vault/Razvoj-softvera-I/tree/main/Vjezbe/FIT_Api_Example)
 
+[Vjezbe 3- Adil Joldic 19.10.2022.](https://github.com/Infinity-Vault/Razvoj-softvera-I/raw/main/Vjezbe/Vjezbe%2003.docx)
+
 
 <hr>
 
