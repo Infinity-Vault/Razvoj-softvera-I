@@ -1,0 +1,41 @@
+<body>
+<h2>{{title}}</h2> <!--{{}} koristimo kada vrsimo prikaz neke varijable ili objekta -->
+
+<h3>Predmeti</h3>
+
+<label for="nazivPredmeta">Molim Vas unesite naziv predmeta:</label>
+<input value={{nazivPredmeta}} type="text" name="nazivPredmeta" id="nazivPredmeta">
+<label for="minProsjek">Molim Vas unesite minimalni prosjek:</label>
+<input value={{minProsjek}} type="text" name="minProsjek" id="minProsjek">
+<br> <br>
+<button (click)="PreuzmiPredmete(nazivPredmeta,minProsjek)">Preuzmi predmete</button>
+<div *ngIf="podaci.length!=0">
+<table class="table-bordered"  *ngFor="let predmet of podaci">  <!-- *ngFor je directive koji sluzi kao for petlja-->
+   <tr>
+     <th>
+       Naziv predmeta <br>
+       {{predmet.naziv}}
+     </th>
+     <th>
+       ECTS bodovi <br>
+       {{predmet.ects}}
+     </th>
+     <th>
+       Ocjena predmeta <br>
+       {{predmet.ocjenaPredmeta}}
+     </th>
+     <th>
+       <button (click)="Edituj(predmet)">Uredi</button>
+     </th>
+   </tr>
+</table>
+   <div *ngIf="odabraniPredmet!=null"> <!-- *ngIf je directive koji sluzi kao if-->
+     <label>Naziv predmeta</label>
+     <input [(ngModel)]="odabraniPredmet.naziv" > <!--Ovo  [(ngModel)] je samo kako bi se promjene vezale na sami objekat u th-->
+     <label>ECTS bodovi</label>
+     <input  [(ngModel)]="odabraniPredmet.ects">
+     <label>Ocjena predmeta</label>
+     <input  [(ngModel)]="odabraniPredmet.ocjenaPredmeta">
+   </div>
+</div>
+</body>
