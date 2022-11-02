@@ -63,8 +63,9 @@ Predavanje 1- 7.10.2022 (Upoznavanje s predmetom, i upute za dalji rad prilikom 
 
 [Vjezbe 3- Adil Joldic 19.10.2022.](https://github.com/Infinity-Vault/Razvoj-softvera-I/raw/main/Vjezbe/Vjezbe%2003.docx)
 
-
 [Vjezbe 4- Adil Joldic 26.10.2022.](https://github.com/Infinity-Vault/Razvoj-softvera-I/raw/main/Vjezbe/Vjezbe_4)
+
+[Vjezbe 5- Adil Joldic 02.11.2022.](https://github.com/Infinity-Vault/Razvoj-softvera-I/raw/main/Vjezbe/Vjezbe_5)
 
 
 <hr>
