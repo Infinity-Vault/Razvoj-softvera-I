@@ -1,0 +1,16 @@
+<div>
+  <h2>Predmeti</h2>
+  <label>Naziv:</label>
+  <input type="text" [(ngModel)]="nazivPredmeta">
+  <label>Prosjecna ocjena:</label>
+  <input type="text" [(ngModel)]="prosjek">
+  <button (click)="fetchpredmeti()">Pretrazi</button>
+  <table *ngFor="let predmet of predmetiArray">
+    <tr>
+      <th>{{predmet.naziv}}</th>
+      <th>{{predmet.ects}}</th>
+      <th>{{predmet.sifra}}</th>
+    </tr>
+  </table>
+</div>
+

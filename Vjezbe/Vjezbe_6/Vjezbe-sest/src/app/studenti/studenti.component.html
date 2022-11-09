@@ -1,0 +1,12 @@
+<h2>Student</h2>
+
+<div>
+  <table class="table table-bordered">
+    <tr *ngFor="let student of filtriraniStudenti()">
+      <th>{{student.ime}}</th>
+      <th>{{student.prezime}}</th>
+      <th>{{student.broj_indeksa}}</th>
+    </tr>
+  </table>
+  <input type="text" [(ngModel)]="filter">
+</div>
