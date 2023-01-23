@@ -73,10 +73,14 @@ Predavanje 1- 7.10.2022 (Upoznavanje s predmetom, i upute za dalji rad prilikom 
 <hr>
 
 
-**Materijali**
+**Ispitni zadaci**
 
 
 
 
 <hr>
+[Ispitni rok 2022-10-31](https://github.com/Infinity-Vault/Razvoj-softvera-I/tree/main/Ispitni%20zadaci/2022-10-31)
+
+<hr>
+
 
